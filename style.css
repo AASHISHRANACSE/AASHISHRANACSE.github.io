@@ -1,0 +1,82 @@
+.first_look{
+    background-color:#131921;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   /* margin: 0 !important; */
+   position: static;
+  
+}
+.logo_look{
+   background-color: black;
+   display: grid;
+   margin-left: 0%;
+}
+.abhi{
+    gap: 10px;
+    color: #ffff;
+    text-decoration: none;
+}
+.information_section{
+    display: flex;
+    background-color: #232f3e;
+    color:white;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.information_section a{
+    color: white;
+    text-decoration: none;
+}
+.product_start{
+    margin:0px 0px ;
+    display:flex ;
+    height: 70%;
+   
+}
+.product_start a {
+  display: inline-block;
+
+}
+
+.product_start img {
+  width: 100%;
+  height: auto;
+  /* transition: transform 10s ease; */
+
+  /* animation: scroll 20s linear infinite; */
+}
+
+/* .product_start img:hover {
+  
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0,0, 0,2);
+  
+} */
+/* @keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translatex(-40%);
+    }
+} */
+.box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 30px;
+    
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+}
+.element{
+    
+    justify-content: space-around;
+    
+}
